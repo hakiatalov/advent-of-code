@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  aoc-dev:
+    build: .
+    container_name: aoc-java-dev
+    command: tail -f /dev/null 
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
