@@ -1,3 +1,6 @@
 .idea/
 input.txt
 input_test.txt
+
+*.class
+*$Pair.class
